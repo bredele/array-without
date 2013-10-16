@@ -9,8 +9,18 @@
 
     $ component install leafs/array-without
 
-## API
+## Usage
 
+```js
+var without = require('without');
+without(['olivier', 'bruno', 'amy'], 'bruno', 'amy');
+// ['olivier']
+```
+
+## TODO
+
+ - do filter component to support old browsers
+ - do contains component
 
 
 ## License
