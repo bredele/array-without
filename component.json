@@ -1,0 +1,16 @@
+{
+  "name": "without",
+  "repo": "leafs/array-without",
+  "description": "Return a copy of an array and remove all passed values",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {
+    "component/assert" : "*"
+    },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
