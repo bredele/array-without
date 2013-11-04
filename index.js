@@ -1,4 +1,4 @@
-var filter = require('filter');
+var diff = require('diff');
 
 /**
  * Return a copy of an array without
@@ -10,8 +10,5 @@ var filter = require('filter');
  */
 
 module.exports = function(arr) {
-	var args = [].slice.call(arguments, 1);
-	return filter(arr, function(val){
-		return !~args.indexOf(val);
-	});
+	return diff(arr, [].slice.call(arguments, 1));
 };
