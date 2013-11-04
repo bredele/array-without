@@ -4,7 +4,9 @@
   "description": "Return a copy of an array and remove all passed values",
   "version": "0.0.1",
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "leafs/array-filter" : "*"
+  },
   "development": {
     "component/assert" : "*"
     },

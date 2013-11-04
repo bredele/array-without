@@ -1,4 +1,4 @@
-
+var filter = require('filter');
 
 /**
  * Return a copy of an array without
@@ -11,7 +11,7 @@
 
 module.exports = function(arr) {
 	var args = [].slice.call(arguments, 1);
-	return arr.filter(function(val){
+	return filter(arr, function(val){
 		return !~args.indexOf(val);
 	});
 };
