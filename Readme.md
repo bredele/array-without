@@ -1,4 +1,3 @@
-
 # array-without
 
   Return a copy of an array and remove all passed values
@@ -7,7 +6,7 @@
 
   Install with [component(1)](http://component.io):
 
-    $ component install leafs/array-without
+    $ component install bredele/array-without
 
 ## Usage
 
